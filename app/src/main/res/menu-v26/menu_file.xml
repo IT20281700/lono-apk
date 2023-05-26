@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/titleSelector"
+        android:title="Home"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:iconTint="@color/white"/>
+
+   <item android:id="@+id/action"
+       android:title="actions"
+       android:icon="@drawable/ic_options_24"
+       android:iconTint="@color/white"
+       app:showAsAction="ifRoom">
+    <menu>
+        <item android:id="@+id/mainHome"
+            android:title="Home"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:iconTint="@color/black" />
+
+        <item android:id="@+id/profile_detail"
+            android:title="MY PROFILE"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_baseline_person_24"/>
+
+        <item android:id="@+id/support"
+            android:title="CONTACT US"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_baseline_phone_enabled_24"/>
+
+        <item android:id="@+id/installment"
+            android:title="MY INSTALLMENTS"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_installments_24"/>
+
+        <item android:id="@+id/menu_logout"
+            android:title="LOG OUT"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_baseline_logout_24" />
+    </menu>
+   </item>
+
+
+</menu>

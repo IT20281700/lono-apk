@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "328027057701",
+    "firebase_url": "https://lono-apk-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "lono-apk",
+    "storage_bucket": "lono-apk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328027057701:android:64a207f7af3ca9aa50d9cc",
+        "android_client_info": {
+          "package_name": "com.chamodex.enterprises.loano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328027057701-e46ppo1r6oua838tco66d8ta0jps2226.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiPiUAx3IJ5juscY1AUkeCaITih1w9vJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328027057701-e46ppo1r6oua838tco66d8ta0jps2226.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
